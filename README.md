@@ -17,6 +17,11 @@ AI agents pay for.
 | `news_search` | Recent news articles | $0.001 |
 | `scrape` | Read any page as clean markdown | $0.002 |
 | `geocode` | Address ↔ coordinates (forward/reverse) | $0.001 |
+| `nlp` | Language, sentiment, keywords, summary | $0.001 |
+| `email_verify` | Syntax + MX + disposable/role → deliverable/risky/undeliverable | $0.001 |
+| `convert` | csv↔json, md→html, html→md/text | $0.001 |
+| `qr` | QR code → SVG or PNG data-URI | $0.001 |
+| `feed` | Parse an RSS/Atom feed → JSON items | $0.001 |
 
 ## Try it free first (no wallet)
 
@@ -46,7 +51,7 @@ Add this to your MCP client config (`claude_desktop_config.json`, Cursor `mcp.js
 }
 ```
 
-Restart your client. Your agent now has `web_search`, `news_search`, `scrape`, and `geocode`.
+Restart your client. Your agent now has all 9 tools: `web_search`, `news_search`, `scrape`, `geocode`, `nlp`, `email_verify`, `convert`, `qr`, `feed`.
 See [`examples/claude_desktop_config.json`](examples/claude_desktop_config.json).
 
 ## Get a wallet
