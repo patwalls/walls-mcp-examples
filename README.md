@@ -62,6 +62,15 @@ node -e 'const {generatePrivateKey}=require("viem/accounts");console.log(generat
 Want to pay in **test** USDC first? Set `X402_NETWORK=base-sepolia` and fund the address from a
 [Base Sepolia faucet](https://faucet.circle.com).
 
+## Use it in an agent framework (LangChain)
+
+Load the tools into a LangChain/LangGraph agent — see [`examples/langchain_agent.py`](examples/langchain_agent.py):
+
+```bash
+pip install langchain-mcp-adapters langgraph langchain-openai
+AGENT_PRIVATE_KEY=0x... python examples/langchain_agent.py
+```
+
 ## Use it without MCP (raw x402)
 
 Any agent that can sign an x402 payment can call the API directly — see
