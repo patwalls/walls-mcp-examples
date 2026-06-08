@@ -21,7 +21,7 @@ from llama_index.llms.openai import OpenAI
 async def main() -> None:
     client = BasicMCPClient(
         "npx",
-        args=["-y", "github:patwalls/superhighway-mcp"],
+        args=["-y", "superhighway-mcp"],
         env={
             "AGENT_PRIVATE_KEY": os.environ["AGENT_PRIVATE_KEY"],
             "X402_NETWORK": "base",

@@ -40,7 +40,7 @@ $0.001–$0.002, and **gas is covered by the facilitator** — so you don't need
   "mcpServers": {
     "superhighway": {
       "command": "npx",
-      "args": ["-y", "github:patwalls/superhighway-mcp"],
+      "args": ["-y", "superhighway-mcp"],
       "env": {
         "AGENT_PRIVATE_KEY": "0xYOUR_FUNDED_BASE_WALLET_KEY",
         "X402_NETWORK": "base"

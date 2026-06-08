@@ -36,7 +36,7 @@ Add this to your MCP client config (`claude_desktop_config.json`, Cursor `mcp.js
   "mcpServers": {
     "superhighway": {
       "command": "npx",
-      "args": ["-y", "github:patwalls/superhighway-mcp"],
+      "args": ["-y", "superhighway-mcp"],
       "env": {
         "AGENT_PRIVATE_KEY": "0xYOUR_FUNDED_BASE_WALLET_KEY",
         "X402_NETWORK": "base"

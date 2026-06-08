@@ -23,7 +23,7 @@ async def main() -> None:
         {
             "superhighway": {
                 "command": "npx",
-                "args": ["-y", "github:patwalls/superhighway-mcp"],
+                "args": ["-y", "superhighway-mcp"],
                 "transport": "stdio",
                 "env": {
                     "AGENT_PRIVATE_KEY": os.environ["AGENT_PRIVATE_KEY"],
