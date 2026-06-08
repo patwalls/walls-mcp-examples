@@ -19,7 +19,7 @@ no subscription, no dashboard. One `npx` line and your agent has tools it pays f
 | **Minimum commitment** | $0 — pay for exactly what you use | Usually a plan or minimum |
 | **Who can buy** | An **agent** with a wallet, autonomously | A human, via a signup funnel an agent can't navigate |
 | **Settlement** | On-chain, ~12s, no chargebacks | Card on file / invoice |
-| **Setup for an agent** | One MCP line (`npx -y github:patwalls/superhighway-mcp`) | Provision key → store secret → wire SDK |
+| **Setup for an agent** | One MCP line (`npx -y superhighway-mcp`) | Provision key → store secret → wire SDK |
 
 Superhighway isn't trying to out-feature mature single-purpose APIs. The wedge is the
 **purchase model**: an agent can discover, pay for, and use it in one autonomous round-trip,
