@@ -23,6 +23,10 @@ AI agents pay for.
 Open **[superhighway.walls.sh](https://superhighway.walls.sh)** and run a search in the box —
 no wallet, no signup. When you're ready to give it to your agent, set up the MCP server below.
 
+## 5-minute setup
+
+New to this? Follow **[TUTORIAL.md](TUTORIAL.md)** — wallet → fund → config → ask, step by step.
+
 ## Install (Claude Desktop / Cursor / Windsurf)
 
 Add this to your MCP client config (`claude_desktop_config.json`, Cursor `mcp.json`, etc.):
