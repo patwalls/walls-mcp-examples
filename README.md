@@ -62,7 +62,12 @@ node -e 'const {generatePrivateKey}=require("viem/accounts");console.log(generat
 Want to pay in **test** USDC first? Set `X402_NETWORK=base-sepolia` and fund the address from a
 [Base Sepolia faucet](https://faucet.circle.com).
 
-## Use it in an agent framework (LangChain)
+## Use it in an agent framework
+
+- **LangChain / LangGraph** → [`examples/langchain_agent.py`](examples/langchain_agent.py)
+- **LlamaIndex** → [`examples/llamaindex_agent.py`](examples/llamaindex_agent.py)
+
+<details><summary>LangChain quickstart</summary>
 
 Load the tools into a LangChain/LangGraph agent — see [`examples/langchain_agent.py`](examples/langchain_agent.py):
 
@@ -70,6 +75,7 @@ Load the tools into a LangChain/LangGraph agent — see [`examples/langchain_age
 pip install langchain-mcp-adapters langgraph langchain-openai
 AGENT_PRIVATE_KEY=0x... python examples/langchain_agent.py
 ```
+</details>
 
 ## Use it without MCP (raw x402)
 
