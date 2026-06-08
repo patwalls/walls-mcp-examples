@@ -25,15 +25,20 @@ Superhighway isn't trying to out-feature mature single-purpose APIs. The wedge i
 **purchase model**: an agent can discover, pay for, and use it in one autonomous round-trip,
 which a key-and-card API fundamentally can't offer.
 
-## What you get (one install, five tools)
+## What you get (one install, ten tools)
 
 | Tool | Replaces (roughly) | Price/call |
 |---|---|---|
 | `web_search` | Brave Search API / Serper / SerpAPI | $0.001 |
 | `news_search` | News API tiers | $0.001 |
 | `scrape` | ScrapingBee / ScrapingAnt (read a page → markdown) | $0.002 |
-| `geocode` | Google Geocoding / geocode.xyz (address ↔ coords) | $0.001 |
+| `geocode` | Google Geocoding / geocode.xyz (address ↔ coords, forward + reverse) | $0.001 |
 | `nlp` | A small NLP API or an LLM round-trip (language/sentiment/keywords/summary) | $0.001 |
+| `email_verify` | ZeroBounce / NeverBounce (syntax + MX + disposable/role → deliverable) | $0.001 |
+| `convert` | A format-conversion micro-API (csv↔json, md→html, html→md/text) | $0.001 |
+| `qr` | QR-code API (text/URL → SVG or PNG data-URI) | $0.001 |
+| `feed` | RSS-to-JSON services (parse any RSS/Atom feed → items) | $0.001 |
+| `sitemap` | A crawl/sitemap helper (fetch a site's sitemap → list of page URLs) | $0.001 |
 
 ## When to use which
 

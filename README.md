@@ -71,6 +71,7 @@ Want to pay in **test** USDC first? Set `X402_NETWORK=base-sepolia` and fund the
 
 - **LangChain / LangGraph** → [`examples/langchain_agent.py`](examples/langchain_agent.py)
 - **LlamaIndex** → [`examples/llamaindex_agent.py`](examples/llamaindex_agent.py)
+- **CrewAI** → [`examples/crewai_agent.py`](examples/crewai_agent.py)
 
 <details><summary>LangChain quickstart</summary>
 
