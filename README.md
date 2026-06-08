@@ -68,6 +68,10 @@ npm i x402-fetch viem
 AGENT_PRIVATE_KEY=0x... X402_NETWORK=base node examples/agent.mjs "best espresso machines"
 ```
 
+## How it compares
+
+See **[COMPARISON.md](COMPARISON.md)** — Superhighway vs. ScrapingBee / Serper / ScreenshotOne / Google Geocoding (pay-per-call, no API key, no signup).
+
 ## Links
 
 - Package: https://github.com/patwalls/superhighway-mcp
