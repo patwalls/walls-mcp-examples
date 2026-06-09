@@ -25,7 +25,7 @@ Superhighway isn't trying to out-feature mature single-purpose APIs. The wedge i
 **purchase model**: an agent can discover, pay for, and use it in one autonomous round-trip,
 which a key-and-card API fundamentally can't offer.
 
-## What you get (one install, sixteen tools)
+## What you get (one install, twenty tools)
 
 | Tool | Replaces (roughly) | Price/call |
 |---|---|---|
@@ -45,6 +45,10 @@ which a key-and-card API fundamentally can't offer.
 | `hash` | A hashing utility (md5/sha1/sha256/sha384/sha512 → hex/base64) | $0.001 |
 | `color` | A color-conversion API (hex ↔ rgb ↔ hsl + nearest CSS name) | $0.001 |
 | `case` | A string-case utility (camel/Pascal/snake/kebab/CONSTANT/slug/Title) | $0.001 |
+| `base64` | A base64 encode/decode utility (+ url-safe) | $0.001 |
+| `jwt` | A JWT decoder (header + claims + readable exp/iat; no verify) | $0.001 |
+| `diff` | A text-diff utility (line diff → added/removed + unified string) | $0.001 |
+| `text_stats` | A readability/word-count API (counts + reading time + averages) | $0.001 |
 
 ## When to use which
 
