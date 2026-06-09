@@ -25,7 +25,7 @@ Superhighway isn't trying to out-feature mature single-purpose APIs. The wedge i
 **purchase model**: an agent can discover, pay for, and use it in one autonomous round-trip,
 which a key-and-card API fundamentally can't offer.
 
-## What you get (one install, ten tools)
+## What you get (one install, sixteen tools)
 
 | Tool | Replaces (roughly) | Price/call |
 |---|---|---|
@@ -39,6 +39,12 @@ which a key-and-card API fundamentally can't offer.
 | `qr` | QR-code API (text/URL → SVG or PNG data-URI) | $0.001 |
 | `feed` | RSS-to-JSON services (parse any RSS/Atom feed → items) | $0.001 |
 | `sitemap` | A crawl/sitemap helper (fetch a site's sitemap → list of page URLs) | $0.001 |
+| `unfurl` | A link-preview / OpenGraph API (URL → title, description, image, favicon) | $0.001 |
+| `fx` | Fixer / exchangerate-api / Open Exchange Rates (currency convert + rates, ECB) | $0.001 |
+| `dns` | A DNS-lookup API (A/AAAA/MX/TXT/NS/CNAME/SOA records for a host) | $0.001 |
+| `hash` | A hashing utility (md5/sha1/sha256/sha384/sha512 → hex/base64) | $0.001 |
+| `color` | A color-conversion API (hex ↔ rgb ↔ hsl + nearest CSS name) | $0.001 |
+| `case` | A string-case utility (camel/Pascal/snake/kebab/CONSTANT/slug/Title) | $0.001 |
 
 ## When to use which
 
