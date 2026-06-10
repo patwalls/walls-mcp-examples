@@ -94,10 +94,20 @@ AGENT_PRIVATE_KEY=0x... X402_NETWORK=base node examples/agent.mjs "best espresso
 
 See **[COMPARISON.md](COMPARISON.md)** — Superhighway vs. ScrapingBee / Serper / ScreenshotOne / Google Geocoding (pay-per-call, no API key, no signup).
 
+## Guides
+
+Step-by-step documentation on superhighway.walls.sh:
+
+- [Add live web search to Claude Code (or any MCP client)](https://superhighway.walls.sh/guides/add-web-search-to-claude-code) — install the MCP server, fund a wallet, use the five tools
+- [A web search API your AI agent can pay for by itself](https://superhighway.walls.sh/guides/web-search-api-agents-pay-per-call) — the x402 pay-per-call flow, step by step
+- [Image search for AI agents: direct URLs, thumbnails, and visual context](https://superhighway.walls.sh/guides/image-search-for-ai-agents) — use `/images` for visual grounding and multimodal agents
+- [Get answers, not links: search + read the top pages in one API call](https://superhighway.walls.sh/guides/search-and-read-in-one-call) — the `/research` endpoint explained
+
 ## Links
 
 - Package: https://github.com/patwalls/superhighway-mcp
 - Live API + free demo: https://superhighway.walls.sh
+- Guides: https://superhighway.walls.sh/guides
 - The directory: https://walls.sh
 - x402 protocol: https://x402.org
 
