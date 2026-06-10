@@ -31,6 +31,7 @@ round-trip, which a key-and-card API fundamentally can't offer.
 |---|---|---|
 | `web_search` | Live, ranked web results as clean JSON — aggregated across many engines, routes around throttling | $0.001 |
 | `news_search` | Recent news articles with published dates, for time-sensitive questions | $0.001 |
+| `image_search` | Image search → direct image URLs, source pages, and thumbnails | $0.001 |
 | `scrape` | Read any URL → title + clean markdown + plain text (boilerplate stripped) | $0.002 |
 | `research` | Search + read the top pages in ONE call — content, not links | $0.005 |
 
