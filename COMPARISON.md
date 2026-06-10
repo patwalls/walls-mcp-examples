@@ -32,12 +32,14 @@ round-trip, which a key-and-card API fundamentally can't offer.
 | `web_search` | Live, ranked web results as clean JSON — aggregated across many engines, routes around throttling | $0.001 |
 | `news_search` | Recent news articles with published dates, for time-sensitive questions | $0.001 |
 | `scrape` | Read any URL → title + clean markdown + plain text (boilerplate stripped) | $0.002 |
+| `research` | Search + read the top pages in ONE call — content, not links | $0.005 |
 
 **Find it, read it, pay per call.** Search finds the right pages; scrape turns them into
-content your agent can actually use — answers, summaries, RAG input.
+content your agent can actually use — answers, summaries, RAG input. Or let `research` do
+the whole job in a single call.
 
 Prefer a key after all? There's also a [free API-key plan](https://superhighway.walls.sh/pricing)
-(1,000 calls/month, no card) with paid tiers — same three tools, human-friendly billing.
+(1,000 calls/month, no card) with paid tiers — same four tools, human-friendly billing.
 
 ## When to use which
 

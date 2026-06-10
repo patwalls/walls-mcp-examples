@@ -17,6 +17,7 @@ AI agents pay for.
 | `web_search` | Live web search → ranked results as clean JSON | $0.001 |
 | `news_search` | Recent news articles with published dates | $0.001 |
 | `scrape` | Read any page → title + clean markdown + text | $0.002 |
+| `research` | Search + read the top pages in one call | $0.005 |
 
 ## Try it free first (no wallet)
 
@@ -46,7 +47,7 @@ Add this to your MCP client config (`claude_desktop_config.json`, Cursor `mcp.js
 }
 ```
 
-Restart your client. Your agent now has the whole search job in three tools: `web_search`, `news_search`, `scrape`. Find it, read it, pay per call.
+Restart your client. Your agent now has the whole search job in four tools: `web_search`, `news_search`, `scrape`, and `research` (search + read in one call). Find it, read it, pay per call.
 See [`examples/claude_desktop_config.json`](examples/claude_desktop_config.json).
 
 ## Get a wallet
