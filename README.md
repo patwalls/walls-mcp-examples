@@ -99,6 +99,7 @@ See **[COMPARISON.md](COMPARISON.md)** — Superhighway vs. ScrapingBee / Serper
 Step-by-step documentation on superhighway.walls.sh:
 
 - [Add live web search to Claude Code (or any MCP client)](https://superhighway.walls.sh/guides/add-web-search-to-claude-code) — install the MCP server, fund a wallet, use the five tools
+- [Add live web search to a LangChain, LlamaIndex, or CrewAI agent](https://superhighway.walls.sh/guides/web-search-langchain-llamaindex-crewai) — MCP adapter + REST API paths for Python frameworks
 - [A web search API your AI agent can pay for by itself](https://superhighway.walls.sh/guides/web-search-api-agents-pay-per-call) — the x402 pay-per-call flow, step by step
 - [Image search for AI agents: direct URLs, thumbnails, and visual context](https://superhighway.walls.sh/guides/image-search-for-ai-agents) — use `/images` for visual grounding and multimodal agents
 - [Get answers, not links: search + read the top pages in one API call](https://superhighway.walls.sh/guides/search-and-read-in-one-call) — the `/research` endpoint explained
