@@ -1,10 +1,11 @@
 # walls-mcp-examples
 
-**Give your AI agent paid web tools in one line — no API key, no signup.**
+**Give your AI agent web search in one line — no API key, no signup.**
 
-Working examples for adding [Superhighway](https://superhighway.walls.sh)'s tools to any
-MCP agent (Claude Desktop, Cursor, Windsurf, …). Your agent calls a tool; under the hood it
-pays **per call in USDC on Base via [x402](https://x402.org)** with a wallet you control.
+Working examples for adding [Superhighway](https://superhighway.walls.sh) — web search for
+AI agents — to any MCP agent (Claude Desktop, Cursor, Windsurf, …). Your agent searches the
+live web, pulls recent news, and reads any page as clean markdown; under the hood it pays
+**per call in USDC on Base via [x402](https://x402.org)** with a wallet you control.
 
 Superhighway is **Wall #001** of [walls.sh](https://walls.sh) — a directory of businesses that
 AI agents pay for.
@@ -13,15 +14,9 @@ AI agents pay for.
 
 | Tool | What it does | Price |
 |---|---|---|
-| `web_search` | Real-time web search → ranked results | $0.001 |
-| `news_search` | Recent news articles | $0.001 |
-| `scrape` | Read any page as clean markdown | $0.002 |
-| `geocode` | Address ↔ coordinates (forward/reverse) | $0.001 |
-| `nlp` | Language, sentiment, keywords, summary | $0.001 |
-| `email_verify` | Syntax + MX + disposable/role → deliverable/risky/undeliverable | $0.001 |
-| `convert` | csv↔json, md→html, html→md/text | $0.001 |
-| `qr` | QR code → SVG or PNG data-URI | $0.001 |
-| `feed` | Parse an RSS/Atom feed → JSON items | $0.001 |
+| `web_search` | Live web search → ranked results as clean JSON | $0.001 |
+| `news_search` | Recent news articles with published dates | $0.001 |
+| `scrape` | Read any page → title + clean markdown + text | $0.002 |
 
 ## Try it free first (no wallet)
 
@@ -51,7 +46,7 @@ Add this to your MCP client config (`claude_desktop_config.json`, Cursor `mcp.js
 }
 ```
 
-Restart your client. Your agent now has all 9 tools: `web_search`, `news_search`, `scrape`, `geocode`, `nlp`, `email_verify`, `convert`, `qr`, `feed`.
+Restart your client. Your agent now has the whole search job in three tools: `web_search`, `news_search`, `scrape`. Find it, read it, pay per call.
 See [`examples/claude_desktop_config.json`](examples/claude_desktop_config.json).
 
 ## Get a wallet
