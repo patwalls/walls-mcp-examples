@@ -80,6 +80,16 @@ AGENT_PRIVATE_KEY=0x... python examples/langchain_agent.py
 ```
 </details>
 
+## Use it in n8n
+
+Install the native community node — no HTTP wiring needed:
+
+1. **Settings → Community Nodes → Install**, enter `n8n-nodes-superhighway`
+2. Add a **Superhighway** node to your workflow, create a **Superhighway API** credential with a free API key from [/pricing](https://superhighway.walls.sh/pricing)
+3. Choose an operation (Web Search, News Search, Image Search, Read Page, Research), enter a query, execute
+
+Full guide: [Add live web search to n8n, Make, or Zapier workflows](https://superhighway.walls.sh/guides/web-search-n8n-make-zapier)
+
 ## Use it without MCP (raw x402)
 
 Any agent that can sign an x402 payment can call the API directly — see
@@ -103,7 +113,7 @@ Step-by-step documentation on superhighway.walls.sh:
 - [A web search API your AI agent can pay for by itself](https://superhighway.walls.sh/guides/web-search-api-agents-pay-per-call) — the x402 pay-per-call flow, step by step
 - [Image search for AI agents: direct URLs, thumbnails, and visual context](https://superhighway.walls.sh/guides/image-search-for-ai-agents) — use `/images` for visual grounding and multimodal agents
 - [Get answers, not links: search + read the top pages in one API call](https://superhighway.walls.sh/guides/search-and-read-in-one-call) — the `/research` endpoint explained
-- [Add live web search to n8n, Make, or Zapier workflows](https://superhighway.walls.sh/guides/web-search-n8n-make-zapier) — HTTP Request node setup + automation use cases
+- [Add live web search to n8n, Make, or Zapier workflows](https://superhighway.walls.sh/guides/web-search-n8n-make-zapier) — native n8n community node + HTTP Request for Make/Zapier
 
 ## Links
 
