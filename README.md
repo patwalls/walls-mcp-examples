@@ -103,6 +103,7 @@ Step-by-step documentation on superhighway.walls.sh:
 - [A web search API your AI agent can pay for by itself](https://superhighway.walls.sh/guides/web-search-api-agents-pay-per-call) — the x402 pay-per-call flow, step by step
 - [Image search for AI agents: direct URLs, thumbnails, and visual context](https://superhighway.walls.sh/guides/image-search-for-ai-agents) — use `/images` for visual grounding and multimodal agents
 - [Get answers, not links: search + read the top pages in one API call](https://superhighway.walls.sh/guides/search-and-read-in-one-call) — the `/research` endpoint explained
+- [Add live web search to n8n, Make, or Zapier workflows](https://superhighway.walls.sh/guides/web-search-n8n-make-zapier) — HTTP Request node setup + automation use cases
 
 ## Links
 
