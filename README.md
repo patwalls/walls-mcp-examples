@@ -93,12 +93,31 @@ Full guide: [Add live web search to n8n, Make, or Zapier workflows](https://supe
 ## Use it without MCP (raw x402)
 
 Any agent that can sign an x402 payment can call the API directly — see
-[`examples/agent.mjs`](examples/agent.mjs):
+[`examples/agent.mjs`](https://github.com/patwalls/walls-mcp-examples/blob/master/examples/agent.mjs):
 
-```bash
+```
 npm i x402-fetch viem
 AGENT_PRIVATE_KEY=0x... X402_NETWORK=base node examples/agent.mjs "best espresso machines"
 ```
+
+## Pay in Nano (XNO) instead of USDC (docs gap)
+
+Every Superhighway example here settles in USDC on Base — an agent needs an EVM
+wallet funded with USDC (gas is covered, but it still needs a Base key and a
+USDC balance). Nano (XNO) would be a drop-in alternative rail: **zero fee,
+~0.5 s finality, no EVM wallet, no gas token, no identity check** — the same
+sub-cent per-call prices, with no per-transaction cost.
+
+x402 is rail-agnostic: the server names its accepted schemes in the `accepts[]`
+array of the 402 quote. If `superhighway.walls.sh` added a Nano scheme entry
+alongside `eip155:8453/USDC`, the [`examples/nano_pydantic_agent.py`](https://github.com/patwalls/walls-mcp-examples/blob/master/examples/nano_pydantic_agent.py)
+example would let a Pydantic AI agent pay the exact same prices from a Nano
+wallet in one line (`nano-pay pay <url>`), reusing `feeless402`
+(a self-custodied Nano x402 client) rather than building a wallet from scratch.
+
+You can track or request that server-side change in the issues. Until it ships,
+the Nano client above demonstrates the pattern and is ready for any endpoint
+that accepts `nano:mainnet`.
 
 ## How it compares
 
