@@ -1,3 +1,5 @@
+> **⚠️ Retired 2026-10-26.** Superhighway has been shut down: `superhighway.walls.sh` returns `410 Gone`, so nothing in this repo works any more. The repo is archived and kept for reference only.
+
 # walls-mcp-examples
 
 **Give your AI agent web search in one line — no API key, no signup.**
